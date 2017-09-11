@@ -39,8 +39,6 @@ export default {
 
   // mixins: [Store],
 
-
-
   destroyed () {
     
   },

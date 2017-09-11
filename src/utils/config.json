@@ -1,0 +1,127 @@
+{
+  "url": {
+    "honban": {
+      "base": "https://toidas.net",
+      "cdn": "https://cdn.toidas.net",
+      "s3": "https://static.toidas.net",
+      "api": "https://toidas.net/api/",
+      "gateway": "https://u7h5vs2ira.execute-api.ap-northeast-1.amazonaws.com/prod/",
+      "admin": "http://toidas.net/admin/auth/login/",
+      "assets": "https://toidas.net/assets/",
+      "noimage": "https://toidas.net/assets/img/l_e_others_500.png"
+    },
+    "develop": {
+      "base": "http://dev.toidas.net",
+      "cdn": "http://dev-static.toidas.net",
+      "s3": "http://dev-static.toidas.net",
+      "api": "http://dev.toidas.net/api/",
+      "gateway": "https://u7h5vs2ira.execute-api.ap-northeast-1.amazonaws.com/dev/",
+      "admin": "http://dev.toidas.net/admin/auth/login/",
+      "assets": "http://dev.toidas.net/assets/",
+      "noimage": "http://dev.toidas.net/assets/img/l_e_others_500.png"
+    },
+    "entry": {
+      "result": {
+        "answer_rand": "0",
+        "created_at": "",
+        "description": "",
+        "footer": "",
+        "id": "",
+        "media": "",
+        "media_id": "",
+        "placements": "",
+        "question_rand": "0",
+        "questions": "",
+        "removed_at": "",
+        "results": "",
+        "status": "draft",
+        "title": "",
+        "type": "",
+        "updated_at": "",
+        "user_id": ""
+      }
+    }
+  },
+  "media": {
+    "id": "",
+    "type": "image",
+    "url": "",
+    "original": "",
+    "thumbnail": "",
+    "trim_x": 0,
+    "trim_y": 0,
+    "trim_h": 0,
+    "trim_w": 0,
+    "copyright": ""
+  },
+  "maxcounts":[
+    { "target": "#entryTitle", "max": 100, "required": true },
+    { "target": "#entryDescription", "max": 400, "required": true },
+    { "target": ".questionTitle", "max": 100, "required": false },
+    { "target": ".questionDescription", "max": 400, "required": false },
+    { "target": ".answerTitle", "max": 100, "required": false },
+    { "target": ".resultTitle", "max": 100, "required": false },
+    { "target": ".resultDescription", "max": 400, "required": false },
+    { "target": "#entryTags", "max": 100, "required": false },
+    { "target": "#entryFooter", "max": 400, "required": false },
+    { "target": "#profileName", "max": 30, "required": true },
+    { "target": "#profileDescription", "max": 100, "required": false }
+  ],
+  "translate": {
+    "trivia": "クイズ",
+    "personality": "診断",
+    "title": "タイトル",
+    "description": "説明文",
+    "questionTitle": "設問",
+    "questionDescription": "解説",
+    "answerTitle": "選択肢",
+    "resultTitle": "結果",
+    "resultDescription": "結果解説",
+    "footer": "回答者にひとこと",
+    "required": "未入力",
+    "max": "文字数オーバー"
+  },
+  "imagetype": {
+    "4:3": "normal",
+    "2:1": "thumbnail",
+    "16:15": "answer",
+    "1:1": "profile",
+    "57:13": "cover"
+  },
+  "imageratio": {
+    "normal": { "w": 4, "h": 3 },
+    "thumbnail": { "w": 2, "h": 1 },
+    "answer": { "w": 16, "h": 15 },
+    "profile": { "w": 1, "h": 1 },
+    "cover": { "w": 57, "h": 13 }
+  },
+  "imagemin": {
+    "normal": { "w": 200, "h": 150 },
+    "thumbnail": { "w": 210, "h": 105 },
+    "answer": { "w": 190, "h": 178 },
+    "profile": { "w": 130, "h": 130 },
+    "cover": { "w": 570, "h": 130 }
+  },
+  "pointuser": [
+    1, 10, 323, 330, 409, 417, 424, 427, 460, 461
+  ],
+  "pointafro": {
+    "toidas": "",
+    "ci"   : "13788",
+    "gm"   : "13788",
+    "pt"   : "14114"
+  },
+  "pointurl": {
+      "toidas": "https://toidas.net",
+      "ci": "http://www.chance.com/pjump.srv?id=23719",
+      "gm": "http://dietnavi.com/pc/ad_jump.php?id=42431",
+      "pt"   : "http://www.pointtown.com/ptu/pointpark/service/detail_rd.do?afid=54945&aiid="
+  },
+  "pointresult": {
+      "toidas": "https://pointci.toidas.net/assets/img/point/result_sample.jpg",
+      "ci": "https://pointci.toidas.net/assets/img/point/result_ci.png",
+      "gm": "https://pointgm.toidas.net/assets/img/point/result_gm.jpg",
+      "pt"   : "https://pointpt.toidas.net/assets/img/point/result_pt.png"
+  }
+
+}

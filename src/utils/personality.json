@@ -1,0 +1,104 @@
+{
+  "result": {
+    "answer_rand": "",
+    "created_at": "",
+    "description": "",
+    "display_flag": 1,
+    "footer": "",
+    "id": "",
+    "keywords": "",
+    "placements": [],
+    "question_rand": "",
+    "questions": {
+      "": {
+        "answers": {
+          "": {
+            "created_at": "",
+            "id": "",
+            "media": null,
+            "media_id": "0",
+            "num": "",
+            "point": "1,0",
+            "question_id": "",
+            "title": "",
+            "updated_at": ""
+          },
+          " ": {
+            "created_at": "",
+            "id": "",
+            "media": null,
+            "media_id": "0",
+            "num": "",
+            "point": "0,1",
+            "question_id": "",
+            "title": "",
+            "updated_at": ""
+          }
+        },
+        "created_at": "",
+        "description": "",
+        "end_media": null,
+        "end_media_id": "0",
+        "entry_id": "",
+        "id": "",
+        "start_media": null,
+        "start_media_id": "0",
+        "title": "",
+        "updated_at": ""
+      }
+    },
+    "removed_at": null,
+    "report": {
+      "answer_id": null,
+      "correct": "0",
+      "created_at": "",
+      "entry_id": "",
+      "id": "",
+      "pageview": "0",
+      "question": "0",
+      "updated_at": ""
+    },
+    "results": {
+      "": {
+        "created_at": "",
+        "description": "",
+        "entry_id": "",
+        "id": "",
+        "media": null,
+        "media_id": "0",
+        "point": "0",
+        "title": "",
+        "updated_at": null
+      },
+      " ": {
+        "created_at": "",
+        "description": "",
+        "entry_id": "",
+        "id": "",
+        "media": null,
+        "media_id": "0",
+        "point": "1",
+        "title": "",
+        "updated_at": null
+      }
+    },
+    "status": "temporary",
+    "title": "",
+    "type": "personality",
+    "updated_at": "",
+    "user": {
+      "coverimage_id": "",
+      "created_at": null,
+      "description": "",
+      "display_name": "",
+      "facebook": "",
+      "id": "",
+      "reg_from": "email",
+      "twitter": "",
+      "updated_at": null,
+      "url": "",
+      "user_id": ""
+    },
+    "user_id": ""
+  }
+}
